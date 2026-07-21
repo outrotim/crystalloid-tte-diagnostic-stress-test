@@ -1,0 +1,33 @@
+"volume_threshold_ml","exposure_definition","population_variant","n_total","n_observed","risk_difference","rd_lower","rd_upper","record_type","panel","study","source_type","outcome","effect_measure","estimate","lower","upper","followup","source_url","accessed","directly_comparable","diagnostic_order","diagnostic_step","empirical_signal"
+1000,"dominant_70","full",29532,21441,-0.1801888710892,-0.192479770592195,-0.167897971586205,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_80","full",26835,19336,-0.191012947840065,-0.203838782013258,-0.178187113666873,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_90","full",23352,16536,-0.201462374233009,-0.214983885588887,-0.18794086287713,"risk_difference",,,,,,,,,,,,,,,
+0,"initial","full",48705,35860,-0.0956385305085846,-0.104046561888972,-0.087230499128197,"risk_difference",,,,,,,,,,,,,,,
+500,"initial","full",40232,29347,-0.0988887275318725,-0.107876270621766,-0.089901184441979,"risk_difference",,,,,,,,,,,,,,,
+1000,"initial","full",34052,24914,-0.0971256128468899,-0.106803031550737,-0.0874481941430423,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_70","landmark",14284,10092,-0.203440029495975,-0.222160504562056,-0.184719554429894,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_80","landmark",12592,8790,-0.216459040227104,-0.2366067405011,-0.196311339953108,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_90","landmark",10652,7240,-0.237649951721366,-0.259575358294326,-0.215724545148406,"risk_difference",,,,,,,,,,,,,,,
+1000,"initial","landmark",17226,12346,-0.118651021845483,-0.134443983917783,-0.102858059773182,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_70","same_cohort",23352,16536,-0.201462374233009,-0.214983885588887,-0.18794086287713,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_80","same_cohort",23352,16536,-0.201462374233009,-0.214983885588887,-0.18794086287713,"risk_difference",,,,,,,,,,,,,,,
+1000,"dominant_90","same_cohort",23352,16536,-0.201462374233009,-0.214983885588887,-0.18794086287713,"risk_difference",,,,,,,,,,,,,,,
+1000,"initial","same_cohort",23352,16536,-0.124933155920673,-0.136274049759611,-0.113592262081735,"risk_difference",,,,,,,,,,,,,,,
+,,,,,,,,"rct_calibration","MAKE-30 (odds ratio; aligned outcome)","SMART","Randomized trial","MAKE-30","conditional OR",0.9,0.82,0.99,"hospital discharge or 30 days","https://doi.org/10.1056/NEJMoa1711584","2026-07-20",TRUE,,,
+,,,,,,,,"rct_calibration","Mortality context (different follow-up/scales)","BaSICS","Randomized trial","90-day mortality","adjusted HR",0.97,0.9,1.05,"90 days","https://doi.org/10.1001/jama.2021.11684","2026-07-20",FALSE,,,
+,,,,,,,,"rct_calibration","Mortality context (different follow-up/scales)","PLUS","Randomized trial","90-day mortality","OR",0.99,0.86,1.14,"90 days","https://doi.org/10.1056/NEJMoa2114464","2026-07-20",FALSE,,,
+,,,,,,,,"rct_calibration","MAKE-30 (odds ratio; aligned outcome)","MIMIC 48-h dominant 70%","Observational emulation","MAKE-30","ATO OR",0.282314068767548,0.255336811833915,0.312141570389506,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",TRUE,,,
+,,,,,,,,"rct_calibration","MAKE-30 (odds ratio; aligned outcome)","MIMIC 48-h dominant 80%","Observational emulation","MAKE-30","ATO OR",0.240188269418953,0.214031162774993,0.26954207984713,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",TRUE,,,
+,,,,,,,,"rct_calibration","MAKE-30 (odds ratio; aligned outcome)","MIMIC 48-h dominant 90%","Observational emulation","MAKE-30","ATO OR",0.18677100820344,0.161309762624429,0.216251074564825,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",TRUE,,,
+,,,,,,,,"rct_calibration","MAKE-30 (odds ratio; aligned outcome)","MIMIC initial assignment","Observational emulation","MAKE-30","ATO OR",0.423273810266686,0.383183736344997,0.467558253298027,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",TRUE,,,
+,,,,,,,,"rct_calibration","Mortality context (different follow-up/scales)","MIMIC 48-h dominant 70%","Observational emulation","death by discharge or 30 days","ATO OR",0.302805260339703,0.270487719215329,0.338984061662341,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",FALSE,,,
+,,,,,,,,"rct_calibration","Mortality context (different follow-up/scales)","MIMIC 48-h dominant 80%","Observational emulation","death by discharge or 30 days","ATO OR",0.255974778024661,0.224446586435531,0.291931759913822,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",FALSE,,,
+,,,,,,,,"rct_calibration","Mortality context (different follow-up/scales)","MIMIC 48-h dominant 90%","Observational emulation","death by discharge or 30 days","ATO OR",0.192354020874716,0.162064593271438,0.228304459350355,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",FALSE,,,
+,,,,,,,,"rct_calibration","Mortality context (different follow-up/scales)","MIMIC initial assignment","Observational emulation","death by discharge or 30 days","ATO OR",0.400793176438188,0.356381323628657,0.450739586024973,"hospital discharge or 30 days","Local locked A0 analysis","2026-07-20",FALSE,,,
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,1,"Time anchor","First crystalloid at ICU 0-24 h"
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,2,"Post-baseline eligibility","0 / 500 / 1000 mL after time zero"
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,3,"Exposure operationalization","Initial vs 48-h 70 / 80 / 90%"
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,4,"Outcome observability","Complete case / IPOW / bounds"
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,5,"PS / weights / ESS","Necessary, not sufficient"
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,6,"RCT calibration","Outcome-specific intervals; no pooling"
+,,,,,,,,"diagnostic_cascade",,,,,,,,,,,,,7,"Cross-database feasibility","Estimate only after all core gates pass"
